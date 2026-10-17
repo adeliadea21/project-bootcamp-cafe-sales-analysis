@@ -53,7 +53,7 @@ This project uses a single flat dataset rather than a multi-table relational dat
 Cafe Sales CSV
       |
       v
-Data Inspection
+Data Exploration
       |
       v
 Data Cleaning & Type Conversion
@@ -89,27 +89,18 @@ Salad generates the highest total revenue among the analyzed products, while Cof
 
 **Business implication:** Inventory and promotional decisions should consider both sales volume and revenue contribution. Coffee availability should be monitored to support demand, while Salad stock and product quality should be maintained to protect its revenue contribution.
 
-![Revenue by Item](images/revenue-by-item.png)
-
-![Quantity Sold by Item](images/quantity-sold-by-item.png)
-
 ### Insight 2: February Records an Unusually Strong Revenue Peak
 
 February generates approximately 10,832 in total revenue, substantially exceeding the other months, which generally range from approximately 6,885 to 7,362. The monthly product heatmap also shows strong February revenue across several products, including Salad (1,970), Sandwich (1,664), Smoothie (1,578), and Juice (1,338).
 
 **Business implication:** February represents a useful starting point for investigating sales growth drivers. The business should examine transaction volume, product mix, promotions, and other available operational records before deciding whether the same approach can be replicated in other months.
 
-![Monthly Revenue Trend](images/monthly-revenue-trend.png)
-
-![Monthly Revenue by Item](images/monthly-revenue-by-item.png)
 
 ### Insight 3: Monday Generates the Highest Daily Revenue, While Missing Transaction Details Limit Analysis
 
 Monday records the highest total daily revenue at 16,342, while Wednesday records the lowest at 11,694. The dataset also contains substantial missing information in `Payment Method` and `Location`, with 2,579 and 3,265 missing records respectively, based on the initial data inspection.
 
 **Business implication:** Monday may be a priority for inventory and staffing reviews. At the same time, improving transaction record completeness is important for understanding customer payment preferences and service-location performance. The observed patterns should be validated against transaction counts and data completeness before operational decisions are made.
-
-![Revenue by Day](images/revenue-by-day.png)
 
 ## 6. Strategic Recommendations
 
