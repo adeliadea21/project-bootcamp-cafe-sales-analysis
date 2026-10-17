@@ -1,5 +1,3 @@
-# cafe-sales-analysis
-
 # Cafe Sales Data Analysis | Python & Pandas | Annual Sales Trends
 
 ## 1. Executive Summary
